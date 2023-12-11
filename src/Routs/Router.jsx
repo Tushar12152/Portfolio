@@ -5,6 +5,8 @@ import Layout from "../LayOut/Layout";
 import About from "../Componets/About";
 import Home from "../page/Home";
 import Service from "../Componets/Service";
+import Portfolio from "../Componets/Portfolio";
+import Contact from "../Componets/Contact";
 
 const Router = createBrowserRouter([
     {
@@ -22,6 +24,14 @@ const Router = createBrowserRouter([
             {
                 path:'/service',
                 element:<Service/>
+            },
+            {
+                path:'/project',
+                element:<Portfolio/>
+            },
+            {
+                path:'/contact',
+                element:<Contact/>
             }
         ]
     }
