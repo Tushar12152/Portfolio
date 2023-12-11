@@ -9,11 +9,11 @@ const Nav = () => {
 
             <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>About </NavLink>
 
-            <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Service</NavLink>
+            <NavLink to="/service" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Service</NavLink>
 
-            <NavLink to="/service" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Portfolio</NavLink>
+            <NavLink to="/project" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Portfolio</NavLink>
 
-            <NavLink to="/project" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>contact</NavLink>
+            <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Contact</NavLink>
 
     </div>
 

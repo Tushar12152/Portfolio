@@ -36,11 +36,11 @@ const Banner = () => {
                            
 
 
-                            <Link className="border-2 p-2 rounded-full border-[#f8f83ce1] text-2xl " to={'https://www.facebook.com/TusharImran03'}> <FaFacebookF /> </Link>
+                            <Link  className="border-2 p-2 rounded-full border-[#f8f83ce1] text-2xl hover:bg-[#f8f83ce1]  " to={'https://www.facebook.com/TusharImran03'}> <FaFacebookF className="hover:text-black" /> </Link>
 
-                            <Link className="border-2 p-2 rounded-full border-[#f8f83ce1] text-2xl " to={'https://github.com/Tushar12152'}><FaGithub /></Link>
+                            <Link className="border-2 p-2 rounded-full border-[#f8f83ce1] text-2xl  hover:bg-[#f8f83ce1]" to={'https://github.com/Tushar12152'}><FaGithub className="hover:text-black" /></Link>
 
-                            <Link className="border-2 p-2 rounded-full border-[#f8f83ce1] text-2xl " to={'https://www.linkedin.com/in/md-isme-ajam-tushar-038504291/'}><FaLinkedinIn /></Link>
+                            <Link className="border-2 p-2 rounded-full border-[#f8f83ce1] text-2xl hover:bg-[#f8f83ce1]" to={'https://www.linkedin.com/in/md-isme-ajam-tushar-038504291/'}><FaLinkedinIn className="hover:text-black" /></Link>
 
 
 
@@ -53,7 +53,7 @@ const Banner = () => {
                           </div>
                           <div className="my-28 ">
                              {/* right side image */}
-                        <img className="w-60 rounded-full  animate-bounce h-60" src={'https://i.ibb.co/0DScbxF/Screenshot-3.png'} alt="" />
+                        <img className="w-60 rounded-full border-4 p-5  animate-bounce hover:animate-pulse h-60" src={'https://i.ibb.co/0DScbxF/Screenshot-3.png'} alt="" />
 
                           </div>
                      </div>
