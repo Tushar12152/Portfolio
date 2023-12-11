@@ -12,7 +12,7 @@ const Portfolio = () => {
             imageUrl: 'https://i.ibb.co/cxGCYmF/Screenshot-4.png',
             githubLink: 'https://github.com/Tushar12152/meal-master-client',
             liveLink: 'https://meal-master-project.web.app/',
-            description: 'This web site has a navbar, footer, about us section, contact us section, membership section, and meals category section on the home page. The navbar has some routes: home, upcoming meals, meals join us routes. Join us routes have a login page redirecting to the register page.',
+            description: 'This web site has a navbar, footer, about us section, contact us section, membership section, and meals category section on the home page. The navbar has some routes: home, upcoming meals, meals join us routes. ',
             title: 'Meal Master Project'
         },
         {
@@ -20,7 +20,7 @@ const Portfolio = () => {
             imageUrl: 'https://i.ibb.co/JjStTXV/Screenshot-5.png',
             githubLink: 'https://github.com/Tushar12152/job-hunter-client',
             liveLink: 'http://ruthless-family.surge.sh/',
-            description: 'Home page has a banner,job by category,about us and contact us section.job by category has 5 routs.all jobs onsite jobs, remote jobs, hybrid jobs and part time jobs. every job card has view detail button.if user click detail button he/she will go to view detail page.',
+            description: 'Home page has a banner,job by category,about us and contact us section.job by category has 5 routs.all jobs onsite jobs, remote jobs, hybrid jobs and part time jobs. every job card has view detail button.',
             title: 'Job Hunter Project'
         },
         {
@@ -42,7 +42,7 @@ const Portfolio = () => {
                     {projects.map((project) => (
                         <div
                             key={project.id}
-                            className="bg-cover bg-center w-96 h-96 relative cursor-pointer transition duration-2000 ease-linear rounded-xl"
+                            className="bg-cover bg-center w-80 h-96 relative cursor-pointer transition duration-2000 ease-linear rounded-xl"
                             style={{
                                 backgroundImage: `url(${project.imageUrl})`,
                             }}

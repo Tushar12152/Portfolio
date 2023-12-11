@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Container from "../Shared/Container";
+// import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
 
@@ -8,6 +9,12 @@ const Nav = () => {
             <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1]  underline   " : ""}>Home</NavLink>
 
             <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>About </NavLink>
+
+
+
+            
+
+
 
             <NavLink to="/service" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Service</NavLink>
 
