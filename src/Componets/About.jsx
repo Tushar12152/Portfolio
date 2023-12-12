@@ -3,7 +3,7 @@ import Title from "../Shared/Title";
 
 const About = () => {
     return (
-        <div className="bg-black pt-10">
+        <div className="bg-black pt-20">
            <Container>
            <Title heading={'About Me'}></Title>
 

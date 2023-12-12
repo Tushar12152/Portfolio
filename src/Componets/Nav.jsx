@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import Container from "../Shared/Container";
+import { PDFDownloadLink } from "@react-pdf/renderer";
+import PDfFile from "./PDFFile";
 // import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
@@ -11,7 +13,7 @@ const Nav = () => {
             <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>About </NavLink>
 
 
-
+            <NavLink to="/skill" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Skills</NavLink>
             
 
 
@@ -22,13 +24,16 @@ const Nav = () => {
 
             <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " text-[#d1ea45e1] underline   " : ""}>Contact</NavLink>
 
+           
+
     </div>
 
 
     return (
-       <div className="bg-black">
-         <Container>
-            <div className="navbar bg-black text-[#f8f83ce1]">
+       <div className="bg-black ">
+         
+           <Container>
+           <div className="navbar bg-black text-[#f8f83ce1] fixed   z-10 bg-opacity-30 w-[90%] mx-auto ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -46,10 +51,27 @@ const Nav = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn bg-[#f8f83ce1]">Download Resume</a>
+
+{/* <PDFDownloadLink document={<PDfFile/>} fileName="Md Isme Ajam resume">
+<button className="btn bg-[#f8f83ce1]">Download Resume</button>
+</PDFDownloadLink> */}
+
+
+
+<PDFDownloadLink document={<PDfFile />} fileName="Md_Isme_Ajam_Resume.pdf">
+      {() => (
+        (
+          <button className="btn bg-[#f8f83ce1]">Download Resume</button>
+        )
+      )}
+    </PDFDownloadLink>
+
+
+    
   </div>
 </div>
-        </Container>
+           </Container>
+        
        </div>
     );
 };

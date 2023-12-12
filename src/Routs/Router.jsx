@@ -7,6 +7,7 @@ import Home from "../page/Home";
 import Service from "../Componets/Service";
 import Portfolio from "../Componets/Portfolio";
 import Contact from "../Componets/Contact";
+import Skills from "../Componets/Skil";
 
 const Router = createBrowserRouter([
     {
@@ -32,6 +33,10 @@ const Router = createBrowserRouter([
             {
                 path:'/contact',
                 element:<Contact/>
+            },
+            {
+                path:'/skill',
+                element:<Skills/>
             }
         ]
     }
