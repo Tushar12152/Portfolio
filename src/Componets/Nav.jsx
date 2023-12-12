@@ -52,19 +52,19 @@ const Nav = () => {
   </div>
   <div className="navbar-end">
 
-{/* <PDFDownloadLink document={<PDfFile/>} fileName="Md Isme Ajam resume">
+<PDFDownloadLink document={<PDfFile/>} fileName="Md Isme Ajam resume">
 <button className="btn bg-[#f8f83ce1]">Download Resume</button>
-</PDFDownloadLink> */}
+</PDFDownloadLink>
 
 
 
-<PDFDownloadLink document={<PDfFile />} fileName="Md_Isme_Ajam_Resume.pdf">
+{/* <PDFDownloadLink document={<PDfFile />} fileName="Md_Isme_Ajam_Resume.pdf">
       {() => (
         (
           <button className="btn bg-[#f8f83ce1]">Download Resume</button>
         )
       )}
-    </PDFDownloadLink>
+    </PDFDownloadLink> */}
 
 
     
