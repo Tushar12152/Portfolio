@@ -10,7 +10,7 @@ const Banner = () => {
                      <div  className="flex flex-col lg:flex-row items-center justify-between">
                           <div className="text-white lg:w-[50%]">
                             {/* left side text */}
-                            <h2 className="text-3xl font-bold py-4"> Hello, I am</h2>
+                            <h2 className="text-3xl font-bold pt-20 py-4"> Hello, I am</h2>
                             <h1 className="text-5xl font-bold py-2">Md.Isme Ajam (Tushar)</h1> 
                             <h2 className="text-2xl font-bold py-4"> And I am a <TypeAnimation className="text-[#f8f83ce1]"
       sequence={[
