@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-        <div className=" bg-black min-h-screen" >
+        <div className=" bg-black " >
                <Container>
                      <div  className="flex flex-col lg:flex-row items-center justify-between">
                           <div className="text-white lg:w-[50%]">

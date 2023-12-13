@@ -15,9 +15,16 @@ const Service = () => {
       <Container>
         <Title heading={"Services"}></Title>
 
-        <div className="mt-20">
+        <div
+         
+        className="mt-20">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="card hover:border-2 border-transparent transition-all duration-1000 ease-linear hover:border-[#f8f83ce1] card-compact w-80 bg-gray-900 shadow-xl">
+            <div
+            
+            data-aos="zoom-out-up"
+            data-aos-duration="3000"
+            
+            className="card hover:border-2 border-transparent transition-all duration-1000 ease-linear hover:border-[#f8f83ce1] card-compact w-80 bg-gray-900 shadow-xl ">
               <div className="card-body">
                 <div className="flex gap-6 bg-black p-5 rounded-xl ">
                      <p className="text-4xl text-[#f8f83ce1]"><DiMongodb /></p>
@@ -36,7 +43,10 @@ const Service = () => {
             </div>
 
 
-            <div className="card hover:border-2 border-transparent transition-all duration-1000 ease-linear hover:border-[#f8f83ce1] card-compact w-80 bg-gray-900 shadow-xl">
+            <div
+             data-aos="zoom-out-up"
+             data-aos-duration="3000"
+            className="card hover:border-2 border-transparent transition-all duration-1000 ease-linear hover:border-[#f8f83ce1] card-compact w-80 bg-gray-900 shadow-xl">
               <div className="card-body">
                 <div className="flex gap-6 bg-black p-5 rounded-xl ">
                      <p className="text-4xl text-[#f8f83ce1]"><FaReact /></p>
@@ -59,7 +69,11 @@ const Service = () => {
 
 
 
-            <div  className="card hover:border-2 border-transparent transition-all duration-1000 ease-linear hover:border-[#f8f83ce1] card-compact w-80 bg-gray-900 shadow-xl">
+            <div
+             data-aos="zoom-out-up"
+             data-aos-duration="3000"
+            
+            className="card hover:border-2 border-transparent transition-all duration-1000 ease-linear hover:border-[#f8f83ce1] card-compact w-80 bg-gray-900 shadow-xl">
               <div className="card-body">
                 <div className="flex gap-6 bg-black p-5 rounded-xl ">
                      <p className="text-4xl text-[#f8f83ce1]"><DiMongodb /></p>

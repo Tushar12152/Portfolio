@@ -41,6 +41,10 @@ const Portfolio = () => {
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project) => (
                         <div
+
+                        data-aos="zoom-out-up"
+                        data-aos-duration="3000"
+                        
                             key={project.id}
                             className="bg-cover bg-center w-80 h-96 relative cursor-pointer transition duration-2000 ease-linear rounded-xl"
                             style={{
