@@ -4,12 +4,13 @@ import Title from "../Shared/Title";
 
 const Skills = () => {
     const skills = [
+        { name: 'ReactJS', percentage: 80 },
+        { name: 'Javascript', percentage: 70 },
+        { name: 'Firebase', percentage: 70 },
         { name: 'HTML5', percentage: 95 },
         { name: 'CSS3', percentage: 90 },
-        { name: 'Javascript', percentage: 70 },
         { name: 'TailWind', percentage: 85 },
         { name: 'Bootstrap', percentage: 70 },
-        { name: 'ReactJS', percentage: 80 },
         { name: 'expressJS', percentage: 60 },
         { name: 'nodeJS', percentage: 60 },
         { name: 'MongoDB', percentage: 60 },
