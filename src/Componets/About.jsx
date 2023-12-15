@@ -7,7 +7,7 @@ const About = () => {
            <Container>
            <Title heading={'About Me'}></Title>
 
-              <div className="flex flex-col lg:flex-row items-center justify-between">
+              <div className="flex flex-col lg:flex-row pb-20 items-center justify-between">
                     <div className="py-20  "    >
                           <img className="w-64  h-64 border-4 rounded-full p-2 border-[#f8f83ce1]" src={'https://i.ibb.co/mB63nCq/IMG-20191017-010223-764.jpg'} alt="" />
                     </div>
