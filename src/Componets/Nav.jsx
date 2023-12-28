@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FaDownload } from "react-icons/fa6";
+
 import Container from "../Shared/Container";
 import { PDFDownloadLink } from "@react-pdf/renderer";
 import PDfFile from "./PDFFile";
@@ -53,7 +55,9 @@ const Nav = () => {
   <div className="navbar-end">
 
 <PDFDownloadLink document={<PDfFile/>} fileName="Md Isme Ajam resume">
-<button className="btn-sm rounded-md hover:bg-white text-black bg-[#f8f83ce1]">Download Resume</button>
+<button className="btn-sm rounded-md hover:bg-white text-black bg-[#f8f83ce1]"> <div className="flex items-center gap-2">
+<FaDownload />  Download Resume
+  </div></button>
 </PDFDownloadLink>
 
 
