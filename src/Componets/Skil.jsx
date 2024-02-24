@@ -4,16 +4,16 @@ import Title from "../Shared/Title";
 
 const Skills = () => {
     const skills = [
-        { name: 'ReactJS', percentage: 80 },
-        { name: 'Javascript', percentage: 70 },
-        { name: 'Firebase', percentage: 70 },
-        { name: 'HTML5', percentage: 95 },
-        { name: 'CSS3', percentage: 90 },
-        { name: 'TailWind', percentage: 85 },
-        { name: 'Bootstrap', percentage: 70 },
-        { name: 'expressJS', percentage: 60 },
-        { name: 'nodeJS', percentage: 60 },
-        { name: 'MongoDB', percentage: 60 },
+        {id:1, name: 'ReactJS', img:'https://i.ibb.co/ZSpkMC7/download.png',animate:"fade-right" },
+        {id:2, name: 'Javascript', img:'https://i.ibb.co/ydB1JbC/download.jpg',animate:"fade-right"  },
+        {id:3, name: 'Firebase',img:'https://i.ibb.co/qnsJvbQ/download.png',animate:"fade-right"  },
+        {id:4, name: 'HTML5', img:'https://i.ibb.co/MNX9LQK/download.png',animate:"fade-right"  },
+        {id:5, name: 'CSS3', img:'https://i.ibb.co/Nxm8Q8w/download.png',animate:"fade-right" },
+        {id:6, name: 'TailWind', img:'https://i.ibb.co/Mc5tq1T/download.jpg',animate:"fade-left" },
+        {id:7, name: 'Bootstrap',img:'https://i.ibb.co/nzwx4TF/download.jpg',animate:"fade-left" },
+        {id:8, name: 'expressJS',img:'https://i.ibb.co/d0QX9cN/download.png',animate:"fade-left"  },
+        {id:9, name: 'nodeJS', img:'https://i.ibb.co/BNRKqRB/download.png',animate:"fade-left"  },
+        {id:10, name: 'MongoDB',img:'https://i.ibb.co/hydPk3m/download.png',animate:"fade-left"  },
         
     ];
 
@@ -23,20 +23,19 @@ const Skills = () => {
 
            <Container>
            <Title heading={'My Skills'}></Title>
-           <div className="max-w-4xl mx-auto mt-20 px-4">
+           <div className=" grid grid-cols-2 md:grid-cols-3 gap-6 lg:grid-cols-5 mt-20 px-4">
                
-               {skills.map((skill, index) => (
-                   <div key={index} className="flex items-center justify-between  mb-3">
-                       <div className="w-32 text-white">{skill.name}</div>
-                       <div className="flex-1 h-4 bg-gray-300 rounded-md">
-                           <div
-                               className="h-full bg-[#f8f83ce1] rounded-md"
-                               style={{ width: `${skill.percentage}%` }}
-                           ></div>
-                       </div>
-                       <div className="ml-4 text-white">{skill.percentage}%</div>
-                   </div>
-               ))}
+              {
+                skills.map(skill=><div key={skill.id}>
+                     <div  data-aos= {skill?.animate}
+                           data-aos-duration="1500"
+                           className="w-full shadow-lg shadow-[#f8f83ce1] rounded-xl"
+                          >
+                          <img className="w-full h-[150px] rounded-xl" src={skill?.img} alt="" />
+                          <h1 className="text-white text-center   font-medium ">{skill.name}</h1>
+                     </div>
+                </div>)
+              }
               
            </div>
            </Container>

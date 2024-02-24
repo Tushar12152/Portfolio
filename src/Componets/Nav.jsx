@@ -10,21 +10,21 @@ const Nav = () => {
 
 
     const nav=<div  className="flex flex-col lg:flex-row gap-6 text-md lg:items-center">
-            <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "  lg:text-[#d1ea45e1]  underline   " : ""}>Home</NavLink>
+            <NavLink to="/" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "  lg:text-[#d1ea45e1]  underline   " : "text-white"}>Home</NavLink>
 
-            <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : ""}>About </NavLink>
+            <NavLink to="/about" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : "text-white"}>About </NavLink>
 
 
-            <NavLink to="/skill" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : ""}>Skills</NavLink>
+            <NavLink to="/skill" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : "text-white"}>Skills</NavLink>
             
 
 
 
-            <NavLink to="/service" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : ""}>Service</NavLink>
+            <NavLink to="/service" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : "text-white"}>Service</NavLink>
 
-            <NavLink to="/project" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : ""}>Portfolio</NavLink>
+            <NavLink to="/project" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : "text-white"}>Portfolio</NavLink>
 
-            <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : ""}>Contact</NavLink>
+            <NavLink to="/contact" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? " lg:text-[#d1ea45e1] underline   " : "text-white"}>Contact</NavLink>
 
            
 
