@@ -28,10 +28,10 @@ const Skills = () => {
               {
                 skills.map(skill=><div key={skill.id}>
                      <div  data-aos= {skill?.animate}
-                           data-aos-duration="1500"
-                           className="w-full shadow-lg shadow-[#f8f83ce1] rounded-xl"
+                           data-aos-duration="3000"
+                           className="w-full shadow-lg shadow-[#f8f83ce1] rounded-xl overflow-hidden"
                           >
-                          <img className="w-full h-[150px] rounded-xl" src={skill?.img} alt="" />
+                          <img className="w-full h-[150px] rounded-xl  transform hover:scale-110 transition-transform duration-300  object-cover hover:cursor-pointer p-1" src={skill?.img} alt="" />
                           <h1 className="text-white text-center   font-medium ">{skill.name}</h1>
                      </div>
                 </div>)

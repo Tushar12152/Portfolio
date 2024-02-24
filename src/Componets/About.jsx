@@ -22,31 +22,31 @@ const About = () => {
 
 
 
-                         <table className="border-collapse border border-[#f8f83ce1]">
+                         <table className="border-collapse border border-white">
     <thead>
         <tr>
-            <th className="border-2 border-[#f8f83ce1] lg:py-2 lg:px-4">Degree</th>
-            <th className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">Passing Year</th>
-            <th className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">Dept.</th>
+            <th className="border-2 border-white lg:py-2 lg:px-4">Degree</th>
+            <th className="border-2 border-white  lg:py-2 lg:px-4">Passing Year</th>
+            <th className="border-2 border-white  lg:py-2 lg:px-4">Dept.</th>
             
-            <th className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">Institute</th>
-            <th className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">Result (CGPA)</th>
+            <th className="border-2 border-white  lg:py-2 lg:px-4">Institute</th>
+            <th className="border-2 border-white  lg:py-2 lg:px-4">Result (CGPA)</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">Diploma</td>
-            <td className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">2022</td>
-            <td className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">CSE</td>
-            <td className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">KIPI</td>
-            <td className="border-2 border-[#f8f83ce1]  lg:py-2 lg:px-4">3.70</td>
+            <td className="border-2 border-white  lg:py-2 lg:px-4">Diploma</td>
+            <td className="border-2 border-white  lg:py-2 lg:px-4">2022</td>
+            <td className="border-2 border-white  lg:py-2 lg:px-4">CSE</td>
+            <td className="border-2 border-white  lg:py-2 lg:px-4">KIPI</td>
+            <td className="border-2 border-white  lg:py-2 lg:px-4">3.70</td>
         </tr>
         <tr>
-            <td className="border-2 border-[#f8f83ce1] lg:px-4">B.Sc</td>
-            <td className="border-2 border-[#f8f83ce1] lg:px-4">2023-present</td>
-            <td className="border-2 border-[#f8f83ce1] lg:px-4">CSE</td>
-            <td className="border-2 border-[#f8f83ce1] lg:px-4">NUB</td>
-            <td className="border-2 border-[#f8f83ce1] lg:px-4">--</td>
+            <td className="border-2 border-white lg:px-4">B.Sc</td>
+            <td className="border-2 border-white lg:px-4">2023-present</td>
+            <td className="border-2 border-white lg:px-4">CSE</td>
+            <td className="border-2 border-white lg:px-4">NUB</td>
+            <td className="border-2 border-white lg:px-4">--</td>
         </tr>
       
     </tbody>

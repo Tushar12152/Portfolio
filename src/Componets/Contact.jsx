@@ -68,7 +68,7 @@ const Contact = () => {
 
     </div>
 
-   <textarea  placeholder="Write Your Text.................." className="border-2 border-[#f8f83ce1] w-full mt-6 rounded-lg p-4" name="" id="" cols="30" rows="10"></textarea>
+   <textarea  placeholder="Write Your Text.................." className="border-2 border-[#f8f83ce1] w-full mt-6 rounded-lg p-4" name="" id="" cols="30" rows="3"></textarea>
    
 
        <input className="btn w-full mt-5 bg-[#f8f83ce1] text-black" type="submit" value="Send" />

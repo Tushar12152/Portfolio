@@ -61,7 +61,7 @@ const Service = () => {
 
 </p>
                 <div className="card-actions justify-center mt-5">
-                  <Link to={'https://www.facebook.com/TusharImran03'}> <button className="btn bg-[#f8f83ce1]">Get Service</button></Link>
+                  <Link to={'https://www.facebook.com/TusharImran03'}> <button className="btn bg-[#f8f83ce1] text-black">Get Service</button></Link>
                 </div>
               </div>
             </div>
