@@ -18,7 +18,7 @@ const Skills = () => {
     ];
 
     return (
-        <div className="py-20 bg-black">
+        <div className="pb-20 bg-black">
 
 
            <Container>

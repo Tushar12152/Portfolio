@@ -3,7 +3,6 @@ import Title from "../Shared/Title";
 import Container from "../Shared/Container";
 
 
-
 const Contact = () => {
 
     const handleSend=e=>{
@@ -21,14 +20,7 @@ const Contact = () => {
    </div>
 
         <form onSubmit={handleSend}>
-    
-
-
     <div className="flex w-full   gap-2">
-       
-  
-
-
         <div className="form-control w-[50%]">
           <label className="label">
             <span className="label-text text-white">First Name</span>
