@@ -1,6 +1,7 @@
 import About from "../Componets/About";
 import Banner from "../Componets/Banner";
 import Contact from "../Componets/Contact";
+import FrontendProject from "../Componets/FrontendProject";
 import Portfolio from "../Componets/Portfolio";
 import Service from "../Componets/Service";
 import Skills from "../Componets/Skil";
@@ -10,10 +11,11 @@ const Home = () => {
         <div>
              <Banner></Banner>
              <About></About>
-<Skills/>
+            <Skills/>
 
              <Service/>
              <Portfolio/>
+             <FrontendProject/>
              <Contact/>
         </div>
     );

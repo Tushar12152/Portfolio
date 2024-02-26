@@ -3,41 +3,42 @@ import Title from "../Shared/Title";
 import { useState } from 'react';
 import { FaGithub, FaLink } from "react-icons/fa";
 
-const Portfolio = () => {
+const FrontendProject = () => {
     const [hoveredProject, setHoveredProject] = useState(null);
 
     const projects = [
         {
             id: 1,
-            imageUrl: 'https://i.ibb.co/cxGCYmF/Screenshot-4.png',
-            githubLink: 'https://github.com/Tushar12152/meal-master-client',
-            liveLink: 'https://meal-master-project.web.app/',
-            description: 'This web site has a navbar, footer, about us section, contact us section, membership section, and meals category section on the home page. The navbar has some routes: home, upcoming meals, meals join us routes. ',
-            title: 'Meal Master Project'
+            imageUrl: 'https://i.ibb.co/X42wZKf/screencapture-tight-bead-surge-sh-2024-02-26-20-39-01.png',
+            githubLink: 'https://github.com/Tushar12152/Digital-Agency-UI',
+            liveLink: 'https://tight-bead.surge.sh/',
+            description: 'This is UI design just , not have any interactivity ',
+            title: 'Digital Agency'
         },
         {
             id: 2,
-            imageUrl: 'https://i.ibb.co/JjStTXV/Screenshot-5.png',
-            githubLink: 'https://github.com/Tushar12152/job-hunter-client',
-            liveLink: 'http://ruthless-family.surge.sh/',
-            description: 'Home page has a banner,job by category,about us and contact us section.job by category has 5 routs.all jobs onsite jobs, remote jobs, hybrid jobs and part time jobs. every job card has view detail button.',
-            title: 'Job Hunter Project'
+            imageUrl: 'https://i.ibb.co/X42wZKf/screencapture-tight-bead-surge-sh-2024-02-26-20-39-01.png',
+            githubLink: 'https://github.com/Tushar12152/Digital-Agency-UI',
+            liveLink: 'https://tight-bead.surge.sh/',
+            description: 'This is UI design just , not have any interactivity ',
+            title: 'Digital Agency'
         },
         {
             id: 3,
-            imageUrl: 'https://i.ibb.co/rsbFs1V/Screenshot-6.png',
-            githubLink: 'https://github.com/Tushar12152/tech-electro-client',
-            liveLink: 'https://technology-and-electroni-30419.web.app/',
-            description: ' when you click up to any kinds of brands you will see thats brands product. six kinds of brands is here.every brands has logo and brands name. when you click here you will redirect in brands product route.',
-            title: 'tech-electro Project'
+            imageUrl: 'https://i.ibb.co/X42wZKf/screencapture-tight-bead-surge-sh-2024-02-26-20-39-01.png',
+            githubLink: 'https://github.com/Tushar12152/Digital-Agency-UI',
+            liveLink: 'https://tight-bead.surge.sh/',
+            description: 'This is UI design just , not have any interactivity ',
+            title: 'Digital Agency'
         },
+        
         // Add more project objects as needed
     ];
 
     return (
         <div className="bg-black py-20">
             <Container>
-                <Title heading={'MERN Projects'} />
+                <Title heading={'Frontend Designs'} />
                 <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {projects.map((project) => (
                         <div
@@ -75,4 +76,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default FrontendProject;
