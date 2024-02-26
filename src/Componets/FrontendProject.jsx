@@ -17,18 +17,18 @@ const FrontendProject = () => {
         },
         {
             id: 2,
-            imageUrl: 'https://i.ibb.co/X42wZKf/screencapture-tight-bead-surge-sh-2024-02-26-20-39-01.png',
+            imageUrl: 'https://i.ibb.co/Yh77mv3/screencapture-demo-gloriathemes-bouffe-demo-home-recipes-v1-2024-02-26-21-00-42.png',
             githubLink: 'https://github.com/Tushar12152/Digital-Agency-UI',
             liveLink: 'https://tight-bead.surge.sh/',
-            description: 'This is UI design just , not have any interactivity ',
-            title: 'Digital Agency'
+            description: 'This is UI design just , not have any interactivity .still working in this project',
+            title: 'Restaurent'
         },
         {
             id: 3,
-            imageUrl: 'https://i.ibb.co/X42wZKf/screencapture-tight-bead-surge-sh-2024-02-26-20-39-01.png',
+            imageUrl: 'https://i.ibb.co/2jJn6Vw/screencapture-demo-theme-sky-nooni-2024-02-26-21-03-18-1.png',
             githubLink: 'https://github.com/Tushar12152/Digital-Agency-UI',
             liveLink: 'https://tight-bead.surge.sh/',
-            description: 'This is UI design just , not have any interactivity ',
+            description: 'This is UI design just , not have any interactivity,still working in this project ',
             title: 'Digital Agency'
         },
         
@@ -47,7 +47,7 @@ const FrontendProject = () => {
                         data-aos-duration="3000"
                         
                             key={project.id}
-                            className="bg-cover bg-center w-80 h-96 relative cursor-pointer transition duration-2000 ease-linear rounded-xl"
+                            className="bg-cover bg-center w-80 h-96 relative cursor-pointer transition duration-1000 ease-linear rounded-xl"
                             style={{
                                 backgroundImage: `url(${project.imageUrl})`,
                             }}
