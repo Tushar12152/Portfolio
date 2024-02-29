@@ -3,7 +3,21 @@ import { TypeAnimation } from 'react-type-animation';
 import { FaFacebookF, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
+
+
+
+
+
+
 const Banner = () => {
+
+
+
+
+
+
+
+
     return (
         <div className=" bg-black " >
                <Container>
@@ -58,6 +72,18 @@ const Banner = () => {
                           </div>
                      </div>
                </Container>
+
+
+
+
+
+             
+
+
+
+
+
+
         </div>
     );
 };
