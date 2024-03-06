@@ -1,33 +1,33 @@
-import { Outlet, ScrollRestoration } from "react-router-dom";
+import { Outlet, } from "react-router-dom";
 import Nav from "../Componets/Nav";
 import Footer from "../Componets/Footer";
-import ScrollToTop from "react-scroll-to-top";
+// import ScrollToTop from "react-scroll-to-top";
 // import ScrollRestoration from "../Componets/ScrollRestoration";
 
 
 
-import { useCallback } from "react";
-import Particles from "react-tsparticles";
-//import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
-import { loadSlim } from "tsparticles-slim";
+// import { useCallback } from "react";
+// import Particles from "react-tsparticles";
+// //import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
+// import { loadSlim } from "tsparticles-slim";
 
 
 
 const Layout = () => {
 
 
-    const particlesInit = useCallback(async engine => {
-        console.log(engine);
-        // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
-        // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
-        // starting from v2 you can add only the features you need reducing the bundle size
-        //await loadFull(engine);
-        await loadSlim(engine);
-    }, []);
+    // const particlesInit = useCallback(async engine => {
+    //     console.log(engine);
+    //     // you can initiate the tsParticles instance (engine) here, adding custom shapes or presets
+    //     // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
+    //     // starting from v2 you can add only the features you need reducing the bundle size
+    //     //await loadFull(engine);
+    //     await loadSlim(engine);
+    // }, []);
     
-    const particlesLoaded = useCallback(async container => {
-        await console.log(container);
-    }, []);
+    // const particlesLoaded = useCallback(async container => {
+    //     await console.log(container);
+    // }, []);
     
 
 
@@ -40,7 +40,7 @@ const Layout = () => {
 
              <Nav/>
 
-             <ScrollRestoration />
+             {/* <ScrollRestoration /> */}
              <Outlet/>
 
 
@@ -48,11 +48,11 @@ const Layout = () => {
              <Footer/>
 
              <div >
-             <ScrollToTop smooth />
+             {/* <ScrollToTop smooth /> */}
              </div>
 
 
-             <Particles
+             {/* <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
@@ -125,7 +125,7 @@ const Layout = () => {
                 },
                 detectRetina: true,
             }}
-        />
+        /> */}
 
 
 
