@@ -26,10 +26,10 @@ const FrontendProject = () => {
         {
             id: 3,
             imageUrl: 'https://i.ibb.co/2jJn6Vw/screencapture-demo-theme-sky-nooni-2024-02-26-21-03-18-1.png',
-            githubLink: 'https://github.com/Tushar12152/Digital-Agency-UI',
-            liveLink: 'https://tight-bead.surge.sh/',
+            githubLink: 'https://github.com/Tushar12152/Furniture-Mart-client',
+            liveLink: 'https://furniture-client-pi.vercel.app/',
             description: 'This is UI design just , not have any interactivity,still working in this project ',
-            title: 'Digital Agency'
+            title: 'Furniture Mart'
         },
         
         // Add more project objects as needed
